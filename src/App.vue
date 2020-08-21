@@ -5,6 +5,7 @@
 </template>
 
 <style lang="less">
+
 body{
   font-size: 0.28rem;
   width: 100%;
@@ -28,3 +29,4 @@ body{
   }
 }
 </style>
+
