@@ -1,0 +1,1 @@
+export default {"address":"山东省威海市环翠区孙家疃镇204号大街","city":"山东省","geohash":"23.10647,113.32446","latitude":"23.10647","longitude":"113.32446","name":"威海市第一中学北部"}
