@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
-<style>
+<style lang="less">
+body{
+  font-size: 0.28rem;
+  width: 100%;
+  max-width: 640px !important;
+  margin: 0 auto !important;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,17 +18,13 @@
   text-align: center;
   color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
+.van-nav-bar--fixed {
+  max-width: 640px;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+@media screen and (min-width: 640px){
+  .van-nav-bar--fixed {
+    left:50% !important;
+    margin-left:-320px;
+  }
 }
 </style>
